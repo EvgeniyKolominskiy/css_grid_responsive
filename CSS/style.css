@@ -11,6 +11,7 @@ header {
 	background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+	width: 100%;
 	min-height: 450px;
 	padding: 100px 0 0;
 }
