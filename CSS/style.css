@@ -130,3 +130,26 @@ header {
 .card + .card {
 	margin-left: 15px;
 }
+
+.section3 {
+	background: #fff;
+	color: #333;
+	padding: 2em;
+}
+
+.content-wrap {
+	display: block;
+}
+
+.content-wrap > h2 {
+	margin: 0;
+	padding: 1em 0;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.content-wrap > p {
+	display: block;
+	margin: 0;
+	padding: 1em 0;
+}
