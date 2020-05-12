@@ -82,3 +82,51 @@ header {
 	margin: 0;
 }
 
+.image > img {
+	width: 273px;
+	height: 166px;
+	object-fit: cover;
+}
+
+.section2 {
+	padding: 2em 1em 1em;
+}
+
+.card {
+	display: inline-block;
+	background: white;
+	width: 273px;
+	text-align: center;
+	color: #333;
+	height: 496px;
+}
+
+.image {
+	width: 273px;
+	height: 180px;
+	overflow: hidden;
+}
+
+.image > img {
+	width: inherit;
+	height: inherit;
+	overflow: hidden;
+}
+
+.cardContent {
+	padding: 1.5em;
+}
+
+.cardContent > h3 {
+	font-weight: bold;
+	font-size: 1.17em;
+}
+
+.cardContent > h3, .cardContent > p {
+	padding: 1em 0;
+	line-height: 1.5em;
+}
+
+.card + .card {
+	margin-left: 15px;
+}
