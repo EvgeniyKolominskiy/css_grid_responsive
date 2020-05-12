@@ -74,7 +74,9 @@ header {
 
 .content div {
 	columns: 2;
-	column-gap: 1.3em;
+	column-gap: 1.8em;
+	padding: 0 13em;
+	height: 96px;
 }
 
 .content p {
