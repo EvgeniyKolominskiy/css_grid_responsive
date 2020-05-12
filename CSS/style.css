@@ -198,3 +198,17 @@ header {
 .box2 > p {
 	margin: 0;
 }
+
+footer {
+	padding: 2em;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	columns: 2;
+	column-gap: 0;
+}
+
+footer div > a {
+	color: #2690d4;
+	text-decoration: none;
+}
